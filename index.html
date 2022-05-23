@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Babilonia | Software Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Aweseome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Blotter JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/slidingDoorMaterial.min.js" integrity="sha512-YaDQp342DPZndINwYGJM0WbaslkZO/jLl3w3IVuj0E79oOmVgD2ZXSFwnUFAH43vpiwFBnfcOgwGfi1+OHYRMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <div class="__next">
+        <div class="container" style="opacity: 1;">
+            <header>
+                <nav class="home-nav">
+                    <div class="space-between">
+                        <div class="logo">AB</div>
+                        <ul class="nav-list">
+                            <li><a href="#">Resume</a></li>
+                            <li><a href="https://github.com/FLAIVIINGO" target="_blank"><i class="fa-brands fa-github nav-links"></i></a></li>
+                            <li><a href="https://www.babiloniablog.com/" target="_blank"><i class="fa-brands fa-blogger-b nav-links"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main class="main-home">
+                <div class="cta">
+                    <div id="blotter">
+                        I have fun with code
+                    </div>
+                </div>
+                <p class="job-title">
+                    Andrew Babilonia / Software Engineer
+                </p>
+            </main>
+            <a href="#body-2">
+                <div class="scroll-down"></div>
+            </a>
+        </div>
+        <section id="body-2">
+            <div class="container-2">
+                <div class="card">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./assets/eat-nutrition-food-png-healthy-45796.png" alt="Food Image">
+                        </div>
+                            <h3>Food API</h3>
+                            <p>Communicate with an API and find a recipe based on ingredient.</p>
+                            <a href="https://github.com/FLAIVIINGO/FreeMealApp" target="_blank">Source Code</a>
+                            <a href="https://food-api-recipe.netlify.app/" target="_blank">Live Project</a>                    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./assets/1724175.png" alt="">
+                        </div>
+                            <h3>Employee Manager</h3>
+                            <p>JAVAFX and SQLite employee management software.</p>
+                            <a href="https://github.com/FLAIVIINGO/EmployeeManager" target="_blank">Source Code</a>
+                            <a href="./assets/EmployeeManager.jar" download>Download Jar</a>                    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="script.js"></script>
+    <script>  
+        VanillaTilt.init(document.querySelectorAll('.card'), {
+        max:25,
+        speed: 400
+    });</script>
+</body>
+</html>
